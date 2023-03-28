@@ -1,0 +1,70 @@
+/* DOCUMENTO CSS */
+
+body {
+	background-color: #F9DFCC;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header {
+	background-color: #784847;
+	padding: 20px;
+	text-align: center;
+}
+h1 {
+	color: ghostwhite;
+	text-align: center;
+}
+
+main {
+	margin: 20px;
+	padding: 0;
+	justify-content: center;
+	padding: 20px;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+
+}
+.box {
+	width: 250px;
+	height: 350px;
+	background-color: #4AF089;
+	border-radius: 40px;
+	padding: 30px;
+	color:#f4efec;
+	text-align: center;
+	margin: 50px;
+	border: 3px solid rebeccapurple;
+}
+.box:hover{
+	box-shadow: 15px 10px 10px #a4a4a4;
+}
+
+.box h2{
+	color: black;
+	padding: 0;
+}
+.box figure {
+	width 250px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.box p {
+color: ghostwhite;
+font-family: sans-serif;
+height: 80px;
+border-radius: 10px;
+}
+footer {
+	background-color: #784847;
+	padding: 20px;
+	text-align: center;
+	color: ghostwhite;
+}
+h3 {
+	color: ghostwhite;
+}
